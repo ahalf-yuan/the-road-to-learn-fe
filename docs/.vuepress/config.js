@@ -16,27 +16,24 @@ module.exports = {
   themeConfig: {
     // 添加导航栏
     nav: [
-      { text: 'vue', link: '/' },
-      { text: 'css', link: '/blog/' },
-      { text: 'js', link: '/zhihu/' },
+      { text: '首页', link: '/' },
+      { text: '快速开始', link: '/start/1-基础知识' },
+      { text: '拓展进阶', link: '/advanced/1-html' },
       {
         text: 'github',
-        // 这里是下拉列表展现形式。
-        items: [
-          { text: 'focus-outside', link: 'https://github.com/txs1992/focus-outside' },
-          { text: 'stylus-converter', link: 'https://github.com/txs1992/stylus-converter' }
-        ]
+        link: 'https://github.com/yuanyazhen/the-road-to-learn-fe'
       }
     ],
     // 为以下路由添加侧边栏
     sidebar: {
-      '/vue/': [
-        'one',
-        'two'
+      '/start/': [
+        ['1-基础知识', '基础知识'],
+        ['2-一个简单的小demo', '一个简单的小demo'],
+        ['3-复杂一点的demo', '复杂一点的demo']
       ],
-      '/css/': [
-        'three',
-        'four'
+      '/advanced/': [
+        ['1-html', 'html'],
+        ['2-css', 'css']
       ]
     },
     sidebarDepth: 2,
