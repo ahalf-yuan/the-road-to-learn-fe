@@ -4,7 +4,7 @@ The road to learn FE for my friends.You can find the [documentation](https://yua
 Enjoy it :heart:!!!
 
 <div align="center">
-  <img src="assets/demo.png" width = "500" alt="图片名称" align=center />
+  <img src="assets/demo.png" width = "600" alt="图片名称" />
 </div>
 
    
