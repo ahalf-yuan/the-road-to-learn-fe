@@ -32,6 +32,9 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 # 1.拥有一名 FEer 的心态
 Print one (or two) patterns printed with "future FEer" and stare at it with a vow to succeed.
 
-# 2.跟着我
+# 2.follow me
 Keep practicing
+
+# 3.professional
+Do whatever you want
 ```
