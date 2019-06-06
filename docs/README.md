@@ -2,7 +2,7 @@
 home: true
 heroImage: /hero.png
 actionText: 快速入门 →
-actionLink: /start/1-基础知识
+actionLink: /start/1-准备工作
 pageClass: home-page-class
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
@@ -18,7 +18,7 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
   </div>
   <div class="feature">
     <h2>拓展进阶</h2>
-    <p>在感受前端神奇的同时，将会提供一系列前端开发学习资源供您参考学习。深入某个领域从来都是需要专注和耐心的，如果你真的想要学习前端，Believe in yourself, one day you will become a professional FE.</p>
+    <p>在感受前端神奇的同时，将会提供一系列前端开发学习资源供您参考学习。深入某个领域从来都是需要专注和耐心的，如果你真的想要学习前端，Believe in yourself and one day you will become a professional FE.</p>
   </div>
   <div class="feature">
     <h2>持续更新</h2>
