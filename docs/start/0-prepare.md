@@ -80,10 +80,38 @@ nvm 是一个安装、管理、切换 node 版本的工具，使用非常方便�
 npm(Node Package Manager) 是随同 NodeJS 一起安装的默认包管理工具，所以一般不需要单独安装。
 
 ## 浏览器调试技巧
-以下数据来看([数据来源](http://gs.statcounter.com/))，chrome 的流行还是占压倒性优势的，所以，以 chrome 为例介绍浏览器调试技巧，其他浏览器可自行 google。
+以下数据来看([数据来源](http://gs.statcounter.com/))，chrome 的流行还是占压倒性优势的，所以，以 chrome 为例介绍浏览器开发者工具，其他浏览器可自行 google。  
+
 <img src="https://i.loli.net/2019/06/06/5cf91e098fa6d42540.png" alt="chrome-data.png" title="chrome-data.png" />  
 
-那么, DevTools 都可以做哪些事情呢?  
+#### 界面概览：  
+
+<img  class="nvm-img" src="https://i.loli.net/2019/06/07/5cfa3f49542d679375.png" alt="Chrome.png" title="Chrome.png" />  
+
+#### 经常使用到的技巧  
+- 设备模式
+  - 模拟移动端设备，上图左上角位置
+- Elements 面板
+  - 检查和调整页面
+  - 编辑样式
+  - 编辑DOM
+- Console 面板,可以使用控制台面板记录诊断信息，或者使用它作为 shell在页面上与JavaScript交互。
+  - 查看日志报错信息
+  - 命令行交互
+- Sources 面板，在源代码面板中设置断点来调试 JavaScript ，或者通过Workspaces（工作区）连接本地文件来使用开发者工具的实时编辑器。
+  - 断点调试
+  - 调试混淆的代码
+  - 使用开发者工具的Workspaces（工作区）进行持久化保存
+- Network 面板,使用网络面板了解请求和下载的资源文件并优化网页加载性能。
+  - 网络面板基础
+  - 了解资源时间轴
+  - 网络带宽限制
+
+其他面板的使用，可以查看以下学习资料。
+
+> [Google develops 官网文档](https://developers.google.com/web/tools/chrome-devtools/)  
+[脑图](https://i.loli.net/2019/06/07/5cfa38d14aaa752893.png)  
+[视频](https://frontendmasters.com/courses/chrome-dev-tools-v2/)
 
 
 <!-- ::: warning
@@ -97,7 +125,7 @@ This is a tip
     1. 为什么首页是 dark 风格，后面又变成 light 风格?
   </div>
   <div class="answer">
-    因为自制的 logo 背景是黑色，为了统一只能将整个页面背景都置黑 😝。 
+    因为自制的 logo 背景是黑色，为了统一就将整个页面背景都置黑了 😝。 
   </div>
   <div class="question">
     2. 为什么上面的介绍都只是放很多官网的链接，没有更多细节或步骤的展示?
