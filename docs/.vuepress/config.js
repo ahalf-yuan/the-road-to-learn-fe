@@ -28,7 +28,14 @@ module.exports = {
     sidebar: {
       '/start/': [
         ['0-prepare', '准备工作'],
-        ['1-base', '基础知识'],
+        {
+          title: '基础知识',
+          collapsable: true,
+          children: [
+            '1-base/1-0-npm',
+            '1-base/1-1-package'
+          ]
+        },
         ['2-start', '从零开始'],
         ['3-pratise', '一个完整的项目']
       ],

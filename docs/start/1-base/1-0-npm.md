@@ -1,7 +1,7 @@
 <style>
 </style>
 
-## NPM 与包
+# NPM 与包
 npm(Node Package Manager) 是随同 NodeJS 一起安装的默认包管理工具，所以一般不需要单独安装。  
 点击查看[npm 详细介绍](https://docs.npmjs.com/about-npm/)，npm 由三部分组成：
 - [npm 网站](https://www.npmjs.com/)，可以查看使用别人发布的包，也可以管理自己发布的包，可是说是一个共享沟通的桥梁。
