@@ -83,7 +83,7 @@ npm(Node Package Manager) 是随同 NodeJS 一起安装的默认包管理工具�
 以下数据来看([数据来源](http://gs.statcounter.com/))，chrome 的流行还是占压倒性优势的，所以，以 chrome 为例介绍浏览器调试技巧，其他浏览器可自行 google。
 <img src="https://i.loli.net/2019/06/06/5cf91e098fa6d42540.png" alt="chrome-data.png" title="chrome-data.png" />  
 
-那么, DevTools 都可以做哪些事情呢？  
+那么, DevTools 都可以做哪些事情呢
 
 
 <!-- ::: warning
