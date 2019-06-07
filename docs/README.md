@@ -2,7 +2,7 @@
 home: true
 heroImage: /hero.png
 actionText: 快速入门 →
-actionLink: /start/1-准备工作
+actionLink: /start/0-prepare
 pageClass: home-page-class
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---

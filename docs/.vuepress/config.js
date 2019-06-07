@@ -17,7 +17,7 @@ module.exports = {
     // 添加导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '快速开始', link: '/start/1-准备工作' },
+      { text: '快速开始', link: '/start/0-prepare' },
       { text: '拓展进阶', link: '/advanced/1-html' },
       {
         text: 'github',
@@ -27,9 +27,10 @@ module.exports = {
     // 为以下路由添加侧边栏
     sidebar: {
       '/start/': [
-        ['1-准备工作', '准备工作'],
-        ['2-从零开始', '从零开始'],
-        ['3-一个完整的项目', '一个完整的项目']
+        ['0-prepare', '准备工作'],
+        ['1-base', '基础知识'],
+        ['2-start', '从零开始'],
+        ['3-pratise', '一个完整的项目']
       ],
       '/advanced/': [
         ['1-html', 'html'],

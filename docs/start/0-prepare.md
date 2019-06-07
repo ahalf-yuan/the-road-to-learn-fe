@@ -25,14 +25,14 @@
   }
 </style>
 
-## 1. 开发环境配置  
+## 开发环境配置  
 - VS Code
-- iTerm2
+- iTerm2 + oh-my-zsh
 - nvm
 - node
 - npm
 
-### VS Code  
+#### VS Code  
 vscode 因为其免费开源的特点逐渐成为前端的主流编辑器，它比sublime开源，比atom更快，比webstorm 更轻。
 1. 下载  
 [官网链接](https://code.visualstudio.com/)
@@ -55,40 +55,42 @@ vscode 因为其免费开源的特点逐渐成为前端的主流编辑器，它�
 - 开发利器   
   - GitLens，GitLens 增强了 Visual Studio Code 中内置的 Git 功能。例如 commits 搜索，历史记录和查看代码作者身份，还能通过强大的比较命令获得有价值的见解等等。
   - Import Cost，计算引入包的大小。  
-  - TODO Highlight，可高亮以及快速搜索 TODO 以及 FIXME等，对于一些先写整体架子后面再填充细节的人来说很好用。
+  - TODO Highlight，可高亮以及快速搜索 TODO 以及 FIXME等，对于一些先写整体结构后面再填充细节的人来说很好用。
   - Todo Tree，在侧边栏生成 TODO 树，可视化较好，TODO 项越来越少的感觉也是一个很好的正向激励。
   - vetur
   - 还有其他一些，Eslint 等等，可以去[官网 Extensions](https://marketplace.visualstudio.com/VSCode)里发掘适合自己的工具，后面项目中用到的插件会具体介绍。
 
-### iTerm2 + oh-my-zsh
+#### iTerm2 + oh-my-zsh
  - iTerm 比 Mac 自带的 Terminal 要好用，因为iTerm支持子窗口、色彩高亮、命令提示、各种智能补全等，点击查看[详细功能列表](https://www.iterm2.com/features.html)。
  - oh-my-zsh 是对zsh的一个个性化定制，提供了更多强大的功能和好看的主题。
-### nvm
+
+#### nvm
 nvm 是一个安装、管理、切换 node 版本的工具，使用非常方便。[安装](https://github.com/nvm-sh/nvm)  
 注意：安装完成后如果出现 `nvm: command not found`，参照以下方式解决。 
 
 <img class="nvm-img" src="http://i.loli.net/2019/06/05/5cf6c0117801a55993.png" alt="图片名称" title="node-version.png" />
 
-### node
+#### node
 虽然纯前端页面不需要本地 node 环境，浏览器自带解释器，但是现代各种打包构建工具的运行还是依赖 node 的运行时环境。node 的安装就用上面提到的 nvm ，方便快捷。  
 关于版本的选择，安装最新的 LTS(Long Term Support) 版本即可，目前是 10.x，记得及时更新最新版。[node releases](https://nodejs.org/en/about/releases/)。
 
-<img class="nvm-img" src="http://i.loli.net/2019/06/05/5cf738f09250556746.png" alt="node-version.png" height="200" title="node-version.png" />
+<img class="nvm-img" src="http://i.loli.net/2019/06/05/5cf738f09250556746.png" alt="node-version.png" height="200" title="node-version.png" />  
 
-### npm
-npm 是随同 NodeJS 一起安装的默认包管理工具。
+#### npm
+npm(Node Package Manager) 是随同 NodeJS 一起安装的默认包管理工具，所以一般不需要单独安装。
 
-Jenny
+## 浏览器调试技巧
+以下数据来看([数据来源](http://gs.statcounter.com/))，chrome 的流行还是占压倒性优势的，所以，以 chrome 为例介绍浏览器调试技巧，其他浏览器可自行 google。
+<img src="https://i.loli.net/2019/06/06/5cf91e098fa6d42540.png" alt="chrome-data.png" title="chrome-data.png" />  
+
+那么, DevTools 都可以做哪些事情呢？  
 
 
-
-## 2. 浏览器调试技巧
-
-::: warning
+<!-- ::: warning
 This is a tip
-:::
+::: -->
 
-## 3. QA  
+## QA  
   
 <div class="qa-container">
   <div class="question">
