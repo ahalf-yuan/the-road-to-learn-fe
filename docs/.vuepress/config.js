@@ -27,6 +27,7 @@ module.exports = {
     // 为以下路由添加侧边栏
     sidebar: {
       '/start/': [
+        ['before-start', '开始之前'],
         ['0-prepare', '准备工作'],
         {
           title: '基础知识',
