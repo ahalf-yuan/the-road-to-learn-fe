@@ -31,10 +31,14 @@ module.exports = {
         ['0-prepare', '准备工作'],
         {
           title: '基础知识',
-          collapsable: true,
+          collapsable: false,
           children: [
             '1-base/1-0-npm',
-            '1-base/1-1-package'
+            '1-base/1-1-package',
+            '1-base/1-2-library',
+            '1-base/1-3-build',
+            '1-base/1-4-broswerRender',
+            '1-base/1-5-trace'
           ]
         },
         ['2-start', '从零开始'],

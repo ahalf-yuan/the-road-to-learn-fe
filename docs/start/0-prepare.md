@@ -46,11 +46,11 @@ vscode 因为其免费开源的特点逐渐成为前端的主流编辑器，它�
   - Easy icon theme
   - Horizon Theme  
 
-<div align="left" class="start-img-box">
+<!-- <div align="left" class="start-img-box">
   <img src="http://i.loli.net/2019/06/05/5cf6a50693bc890261.png" width = "300" alt="图片名称" title="node-version.png" />
   <img src="http://i.loli.net/2019/06/05/5cf6a54acda3389861.png" width = "300" alt="图片名称" title="node-version.png" />
   <img src="http://i.loli.net/2019/06/05/5cf6a5a149cfb17581.jpeg" width = "300" alt="图片名称" title="node-version.png" />
-</div>   
+</div>    -->
 
 - 开发利器   
   - GitLens，GitLens 增强了 Visual Studio Code 中内置的 Git 功能。例如 commits 搜索，历史记录和查看代码作者身份，还能通过强大的比较命令获得有价值的见解等等。
@@ -86,7 +86,7 @@ npm(Node Package Manager) 是随同 NodeJS 一起安装的默认包管理工具�
 
 #### 界面概览：  
 
-<img  class="nvm-img" src="https://i.loli.net/2019/06/07/5cfa3f49542d679375.png" alt="Chrome.png" title="Chrome.png" />  
+<img  class="nvm-img" style="margin-top: 16px;" src="https://i.loli.net/2019/06/07/5cfa3f49542d679375.png" alt="Chrome.png" title="Chrome.png" />  
 
 #### 经常使用到的技巧  
 - 设备模式
@@ -112,7 +112,6 @@ npm(Node Package Manager) 是随同 NodeJS 一起安装的默认包管理工具�
 > [Google develops 官网文档](https://developers.google.com/web/tools/chrome-devtools/)  
 [脑图](https://i.loli.net/2019/06/07/5cfa38d14aaa752893.png)  
 [视频](https://frontendmasters.com/courses/chrome-dev-tools-v2/)
-
 
 <!-- ::: warning
 This is a tip
