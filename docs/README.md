@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /hero_1.jpg
 actionText: 快速入门 →
 actionLink: /start/before-start
 pageClass: home-page-class
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer:  治理平台技术-用户体验
 ---
 
 <div style="text-align: center">

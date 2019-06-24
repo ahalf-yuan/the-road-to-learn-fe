@@ -117,7 +117,7 @@ npm(Node Package Manager) 是随同 NodeJS 一起安装的默认包管理工具�
 This is a tip
 ::: -->
 
-## QA  
+<!-- ## QA  
   
 <div class="qa-container">
   <div class="question">
@@ -133,4 +133,4 @@ This is a tip
     这真的不是偷懒。   
     其实这是一个用心良苦的设计，为了让你在学习的时候多翻翻官网，快速了解和融入前端的技术圈。Enjoy it 🤟.
   </div>
-</div>
+</div> -->
