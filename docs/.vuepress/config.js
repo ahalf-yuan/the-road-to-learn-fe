@@ -1,7 +1,7 @@
 module.exports = {
   base: '/the-road-to-learn-fe/',
   title: '前端指南',
-  description: 'In the Road to learn FE, we offer a foundation before you dive into the broader FE ecosystem. Best of luck to you !!!',
+  description: 'We offer a foundation before you dive into the broader FE ecosystem.',
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }], // 增加一个自定义的 favicon(网页标签的图标)

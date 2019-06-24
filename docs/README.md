@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero_1.jpg
+heroImage: /hero_1.png
 actionText: 快速入门 →
 actionLink: /start/before-start
 pageClass: home-page-class
